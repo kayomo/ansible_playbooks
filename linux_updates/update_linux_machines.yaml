@@ -1,0 +1,11 @@
+---
+- hosts: linux
+  become: true
+  tasks:
+    - name: Update Linux Machines
+      apt:
+        name: "*"
+        state: latest
+        update_cache: yes
+        force_apt_get: yes
+      when: ansible_distribution == "Debian" or ansible_distribution == "Ubuntu"
