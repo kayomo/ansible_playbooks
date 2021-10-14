@@ -1,3 +1,3 @@
 # Update scripts for Linux
 
-Updates all installed packages to latest version (Debian & Ubuntu).
+Updates all installed packages on all machines in hosts file to latest version (Debian & Ubuntu).
