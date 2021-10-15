@@ -3,6 +3,7 @@
 Updates all installed packages on all machines in hosts file to latest version (Debian & Ubuntu).
 
 **Usage:**
+
 Updates all machines:
 ```
 ansible-playbook update_linux_machines.yaml
